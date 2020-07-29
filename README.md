@@ -1,7 +1,7 @@
 # Email-Classifier
 A hierarchical Naive Bayes classifier for emails.
 
-Extracting and Processing the Raw Emails
+<b> Extracting and Processing the Raw Emails </b>
 
 The email data was first extracted using the Unix tar command “tar xvzf data.tgz.” Next, a function named extract_body was made to return just the body of the email. This was done by skipping every line in the email prior to the line beginning with the string “Line:” since it appeared this string immediately preceded the body of every email. 
 
